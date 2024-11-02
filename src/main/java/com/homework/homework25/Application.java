@@ -1,4 +1,4 @@
-package com.homework.homework25.model;
+package com.homework.homework25;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
