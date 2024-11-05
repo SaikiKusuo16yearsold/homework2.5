@@ -5,7 +5,8 @@ import com.homework.homework25.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.Collection;
+
 
 @RestController
 @RequestMapping(path = "/employee")
@@ -33,7 +34,7 @@ public class EmployeeController {
     }
 
     @GetMapping(path = "all")
-    public List<Employee> findAllEmployees() {
+    public Collection<Employee> findAllEmployees() {
         return employeeService.getAllEmployees();
     }
 
